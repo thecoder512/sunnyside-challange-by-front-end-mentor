@@ -238,7 +238,7 @@ a{
     display: grid;
 }
 
-.col-2{
+.col-2a{
     order: -1;
 }
 .col-1{
@@ -689,6 +689,10 @@ a{
     .about{
         display: grid;
         grid-template-columns: 1fr 1fr ;
+    }
+
+    .col-2a{
+        order: 1;
     }
 
     .col-1{
